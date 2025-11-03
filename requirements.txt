@@ -1,0 +1,12 @@
+streamlit==1.51.0
+plotly==6.3.1
+pandas==2.3.3
+numpy==2.2.6
+matplotlib==3.10.7
+seaborn==0.13.2
+scikit-learn==1.7.2
+tqdm
+# PyTorch is large and may not install on some hosted platforms; include only if you need model reload/training on deploy
+torch
+# Optional: watchdog speeds up Streamlit file-watching on macOS
+watchdog
